@@ -1,11 +1,21 @@
 .navegar__logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    height: 30px;
-    width: 220px;
-    position: absolute;
-    top: 20px;
-    left: 120px;
+    width: 50vw;  
+
+}
+
+@media screen and (min-width: 768px) {
+    .navegar__logo{
+    position: relative;
+    left: 1rem;
+    top: 0.1rem;
+    }
+
+}
+@media screen and (min-width: 1024px){
+
+    .navegar__logo {
+    
+       top: -0.20rem; 
+    }
+   
 }

@@ -1,7 +1,7 @@
 .banner__conteiner{
-   width: 100%;
+   width: 100vw;
    height: 45vh;
-   background-image: url(../img/banner-image.png);
+   background-image: url(/img/banner-image.png);
    background-repeat: no-repeat;
    background-size: cover;
    

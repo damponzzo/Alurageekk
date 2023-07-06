@@ -1,16 +1,46 @@
+.navegar__login{
+    margin-right: 0.5em;
+    padding-top: 0.73em;
+    position: absolute;
+    right: 1rem;
+    
+}
 
 .btn__login{
-color: rgb(28, 42, 231);
-background-color: rgb(255, 255, 255);
-position: absolute;
-top: 20px;
-right: 200px;
-height: 30px;
-width: 130px;
-border: 1px solid #6795ec;
+color: rgb(118, 140, 238);
+background-color: rgb(250, 250, 250);
+height: 2.35rem;
+width: 6.55rem;
+border: 1px solid #93b3ee;
 border-radius: 3px;
+max-width: 350px;
+box-sizing: border-box;
+
+
 
 }
 .btn__login:hover{
     background-color: rgb(210, 225, 238);
+}
+
+@media screen and (min-width: 768px) {
+    .navegar__login{
+       top: 1.97rem;
+       right: 2rem; 
+
+    }
+
+}
+@media screen and (min-width: 1024px){
+
+    .navegar__login {
+     right: 7rem;
+     top: 1.8rem;
+        
+    }
+    .btn__login{
+        width: 8rem;
+        height: 2.2rem;
+        font-size: 1em;
+    }
 }

@@ -1,0 +1,19 @@
+.navegar{
+    width: 100%;
+    height: 15vh;
+    margin: 2rem 1rem 0 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .navegar{
+        height: 8vh;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+
+    .navegar {
+     height: 6vh;
+        
+    }
+}
