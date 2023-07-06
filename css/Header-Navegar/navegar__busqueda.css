@@ -1,0 +1,30 @@
+.navegar__busqueda{
+ display: flex;
+ align-items: center;
+ 
+}
+.navegar__input{
+    background-color: #F5F5F5;
+    height: 20px;
+    width: 300px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    outline: none;
+}
+.navegar__input::placeholder{
+    color: rgb(158, 153, 153);
+}
+
+.btn__busqueda{
+    height: 24px;
+    border: 1px solid #d1d1d1 ;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.img__busqueda{
+   background-size: 1px;
+   background-color:F5F5F5;
+}

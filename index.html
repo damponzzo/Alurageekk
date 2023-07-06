@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Header-Navegar/navegar__conteiner.css">
+    <link rel="stylesheet" href="/css/Header-Navegar/navegar__logo.css">
+    <link rel="stylesheet" href="/css/Header-Navegar/navegar__login.css">
+    <link rel="stylesheet" href="/css/Header-Navegar/navegar__busqueda.css">
+    <link rel="stylesheet" href="/css/main-banner/banner__conteiner.css">
+    <link rel="stylesheet" href="/css/main-banner/banner__text.css">
     <title>AluraGeek</title>
 </head>
+
 <body>
-    <header class="navergar">
-        <div class="navegar__conteiner">
-            <div class="navegar__logo"></div>
-            <div class="navegar__busqueda"></div>
-            <div class="navegar__login">
-                <button class="btn__login"></button>
+    <header class="navegar">
+        <div class="navegar__conteiner"> 
+            <div class=" navegar__logo">
+            <img class="img__logo" src="/img/Logo.png" alt="logo">
+            <div class="navegar__busqueda">
+                <input class="navegar__input" type="text" placeholder="¿Qué estás buscando?">
+                <button class="btn__busqueda"> <img class="img__busqueda" src="/img/bx-search-alt-2.svg"
+                        alt="logobusqueda"></button>
+            </div>
+            </div>
+        <div class="navegar__login">
+            <button class="btn__login" type="button"> Login </button>
+        </div>
+        </div>
+    </header>
+    <main class="banner">
+        <div class="banner__conteiner">
+            <div class="banner__text">
+                <h1>Febrero Promocional</h1>
+                <h2>Productos seleccionados con un 33% de descuento</h2>
+                <button class="btn__consolas"> Ver Consolas </button>
             </div>
         </div>
-        
-    </header>
+    </main>
+
 </body>
+
 </html>

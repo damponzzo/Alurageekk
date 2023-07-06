@@ -1,0 +1,18 @@
+.banner__text{
+margin: 30px;
+    color: white;
+   position: relative;
+   top: 140px;
+   left: 50px;
+   
+}
+
+.btn__consolas{
+    width: 200px;
+    height: 70px;
+    background-color: #2A7AE4;
+    color: aliceblue;
+    border: 1px solid rgb(177, 177, 177);
+    
+    font-size: 3vh;
+}

@@ -1,0 +1,11 @@
+.navegar__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 30px;
+    width: 220px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
