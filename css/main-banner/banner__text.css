@@ -2,8 +2,8 @@
 margin: 30px;
     color: white;
    position: relative;
-   top: 140px;
-   left: 50px;
+   top: 11rem;
+   left: 0.2rem;
    
 }
 
@@ -11,8 +11,25 @@ margin: 30px;
     width: 200px;
     height: 70px;
     background-color: #2A7AE4;
-    color: aliceblue;
-    border: 1px solid rgb(177, 177, 177);
-    
+    color: rgb(245, 245, 245);
+    border: 1px solid rgb(48, 103, 221);
     font-size: 3vh;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__text{
+        left: 3rem ;
+        top: 8rem;
+
+    }
+
+}
+@media screen and (min-width: 1024px){
+
+    .banner__text{
+        top: 10rem;
+        left: 8rem;
+
+    }
+
 }
