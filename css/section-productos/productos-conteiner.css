@@ -3,7 +3,7 @@
   
 }
 
-.productos__star_wars{
+.productos__cards{
     display: grid;
     grid-template-columns: 0.5fr auto;
   
