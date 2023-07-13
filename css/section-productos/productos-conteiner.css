@@ -1,0 +1,11 @@
+.productos__conteiner{
+    width: 100%;
+  
+}
+
+.productos__star_wars{
+    display: grid;
+    grid-template-columns: 0.5fr auto;
+  
+   
+}
