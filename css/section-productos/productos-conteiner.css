@@ -1,6 +1,7 @@
 .productos__conteiner{
     width: 100%;
- padding: 2rem;
+ padding: 1rem;
+ margin: 1rem 0;
 }
 
 .productos__cards{
@@ -10,4 +11,5 @@
     grid-gap: 1rem;
     justify-content: center;
     margin: 1em 0; 
+    
 }
