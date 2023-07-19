@@ -1,9 +1,22 @@
 .productos__producto{
 
-width: 100%;
-box-sizing: border-box;
+ max-width: 176px;
 padding: 1rem;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+
+}
+
+.productos__producto:nth-child(5), .productos__producto:nth-child(6) {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .productos__producto:nth-child(6) {
+        
+        display: flex;
+    }
+
 }

@@ -1,11 +1,13 @@
 .productos__conteiner{
     width: 100%;
-  
+ padding: 2rem;
 }
 
 .productos__cards{
-    display: grid;
-    grid-template-columns: 0.5fr auto;
-  
-   
+     display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(156px,1fr));
+    grid-auto-rows: minmax(156px,256px);
+    grid-gap: 1rem;
+    justify-content: center;
+    margin: 1em 0; 
 }
