@@ -1,13 +1,14 @@
 .productos__producto{
-    margin: 1rem 0;
+
 padding: 2rem;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-justify-content: center;
+
 }
 .productos__producto a{
     text-decoration: none;
+    color: #2A7AE4;
 }
 
 .productos__producto:nth-child(5), .productos__producto:nth-child(6) {
@@ -21,4 +22,9 @@ justify-content: center;
         display: flex;
     }
 
+}
+
+/*Modificacion de imagenes*/
+.producto__imagen{
+    margin-bottom:1em;
 }

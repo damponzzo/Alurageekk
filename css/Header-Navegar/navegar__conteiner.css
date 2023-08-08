@@ -1,15 +1,19 @@
 .navegar__conteiner{
+    width: 100%;
+    height: auto;
+    
     display: flex;
-   flex-wrap: wrap;
-    padding-left: 1rem;
-    padding-right: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+   
 }
 
 @media screen and (min-width: 768px) {
     .navegar__conteiner{
-        flex-wrap: nowrap;
-        align-items: center;
-        margin-left: 2rem;
+        flex-direction: row;
+    justify-content: space-between;
         margin-right: 3rem;
 
     }
@@ -18,7 +22,7 @@
 @media screen and (min-width: 1024px){
 
     .navegar__conteiner {
-        margin-left: 7rem;
+        
         margin-right: 5rem;
         
     }

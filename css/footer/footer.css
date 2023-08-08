@@ -1,0 +1,9 @@
+.footer{
+    background-color: #EAF2FD;
+    margin: 2rem 0;
+}
+/*Modificando logo alura */
+.footer__logo{
+    display: flex;
+    justify-content: center;
+}

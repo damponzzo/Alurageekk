@@ -1,13 +1,12 @@
 .navegar__logo{
-    width: 50vw;  
-
+    
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
     .navegar__logo{
-    position: relative;
-    left: 1rem;
-    top: 0.1rem;
+        padding-left: 2rem;
     }
 
 }
@@ -15,7 +14,7 @@
 
     .navegar__logo {
     
-       top: -0.20rem; 
+    padding-left: 4rem;
     }
    
 }

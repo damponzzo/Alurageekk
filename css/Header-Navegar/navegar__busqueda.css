@@ -3,19 +3,18 @@
     display: flex;
     align-items: center;
     padding-top: 2em;
-    margin-left: 2px;
-    margin-right: 2px;
-   
-
+    justify-content: center;
+    
 }
 
 .navegar__input {
     background-color: #F5F5F5;
     height: 2rem;
-    width: 70vh;
+    width: 40vh;
     border: 1px solid #d1d1d1;
     border-radius: 5px 0 0 5px;
-    outline: none;
+    outline-color:#93b3ee;
+    
 }
 
 .navegar__input::placeholder {
@@ -23,12 +22,12 @@
 }
 
 .btn__busqueda {
-    height: 2.222rem;
+    padding: 1px;
     border: 1px solid #d1d1d1;
     border-radius: 0 5px 5px 0;
-    outline: none;
+   
     background-color: #F5F5F5;
-    /* overflow: hidden; */
+    
 }
 
 .img__busqueda {
@@ -36,22 +35,23 @@
     background-color: F5F5F5;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 960px){ /*ver tema media queris*/
 
     .navegar__busqueda{
         width:40vW ;
-        position: absolute;
-         left: 16rem;
-         top: 0.80rem;
-    }
+        padding-top: 0;
+        padding-right: 4rem;
+        position: relative;
+        right: 4em;
+}
+    
     
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1328px){
 
     .navegar__busqueda {
-     left: 22rem;
-     top: 0.5rem;
-        
+        position: relative;
+        right: 10em;
     }
 }
