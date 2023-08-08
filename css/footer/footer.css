@@ -1,9 +1,27 @@
 .footer{
     background-color: #EAF2FD;
     margin: 2rem 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 /*Modificando logo alura */
 .footer__logo{
     display: flex;
     justify-content: center;
 }
+
+/* @media screen and (min-width: 768px) {
+    .contacto{
+        flex-direction: row;
+    }
+    
+} */
+/* @media screen and (min-width: 1024px){
+
+    .navegar {
+     height: 13vh;
+        
+    }
+} */
