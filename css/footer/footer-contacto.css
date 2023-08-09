@@ -1,7 +1,7 @@
 .contacto{
     display: flex;
     flex-direction: column;
-    gap:8px;
+        gap:8px;
 }
 
 .contacto__text{
@@ -14,7 +14,8 @@
     background: rgba(255, 255, 255, 1);
 outline-color: rgb(13, 153, 255);
 border: 1px solid #d1d1d1;
-box-shadow: 2px 2px 4px rgb(0 0 0 / 20%)
+box-shadow: 2px 2px 4px rgb(0 0 0 / 20%);
+padding-bottom: 1rem;
    
 }
 .contacto input::placeholder{
@@ -48,10 +49,9 @@ box-shadow: 2px 2px 4px rgb(0 0 0 / 20%)
     }
     
 } */
-/* @media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px){
 
-    .navegar {
-     height: 13vh;
-        
-    }
-} */
+    /* .contacto {
+     flex-direction: row;
+    } */
+}
